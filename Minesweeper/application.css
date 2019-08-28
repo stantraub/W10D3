@@ -1,0 +1,28 @@
+
+.title {
+  text-align: center;
+}
+
+.tile {
+  width: 25px;
+  height: 25px;
+  border-style: outset;
+
+  background-color: lightgrey;
+  position: relative;
+  float: left;
+}
+
+.board {
+  padding: 20%;
+}
+
+.row {
+  width: 180px;
+  margin: 0 auto;
+}
+
+.revealed {
+  border-style: inset;
+  background-color: red;
+}
